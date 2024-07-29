@@ -8,4 +8,6 @@ const Sample = () => {
 };
 
 // Attach to the window object
-window.Sample = Sample.default ? Sample.default : Sample; // Ensure you access the default export if it exists
+window.Sample = Sample; // No need to check for .default since you're using default export
+
+export default Sample;
