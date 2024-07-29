@@ -8,4 +8,4 @@ export const Sample = () => {
 
 
 // Attach to the window object
-window.MyComponent = Sample;
+window.Sample = Sample;
