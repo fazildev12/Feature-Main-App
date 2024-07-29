@@ -26,7 +26,7 @@ return /******/ (() => { // webpackBootstrap
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Sample = () => {\n  console.log(window, 'window in the app is here');\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    style: {\n      color: 'red'\n    }\n  }, \"I am from extenal application\");\n};\n\n// Attach to the window object\nwindow.Sample = Sample;\n\n//# sourceURL=webpack://Sample/./src/components/Sample.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Sample = () => {\n  console.log(window, 'window in the app is here');\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    style: {\n      color: 'red'\n    }\n  }, \"I am from external application\");\n};\n\n// Attach to the window object\nwindow.Sample = Sample.default ? Sample.default : Sample; // Ensure you access the default export if it exists\n\n//# sourceURL=webpack://Sample/./src/components/Sample.js?");
 
 /***/ }),
 
