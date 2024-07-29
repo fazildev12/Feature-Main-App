@@ -2,11 +2,11 @@ const path = require('path');
 
 module.exports = {
     mode:'development',
-    entry: './src/components/LabTabs.js',
+    entry: './src/components/Sample.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'feature.bundle.js',
-        library: 'MyComponent',
+        library: 'Sample',
         libraryTarget: 'umd',
     },
     module: {
