@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/components/LabTabs.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'my-component.bundle.js',
+        filename: 'feature.bundle.js',
         library: 'MyComponent',
         libraryTarget: 'umd',
     },
