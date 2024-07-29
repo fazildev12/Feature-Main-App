@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/components/Sample.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'feature.bundle.js',
+        filename: 'sample.bundle.js',
         library: 'Sample',
         libraryTarget: 'umd',
     },
